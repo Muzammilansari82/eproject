@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"
+  ></script>
+    <style>
+      .paris {
+        position: relative;
+        width: 1340px;
+        height: 700px;
+        background-image: url("../images/paris/ihys9yfdeqs9yexatayp.jfif");
+        background-position: center;
+        background-size: cover;
+      }
+
+      .over {
+        position: absolute;
+        width: 1350px;
+        height: 700px;
+        background-color: rgba(47, 47, 47, 0.761);
+        mix-blend-mode: overlay;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .paris:hover .over {
+        opacity: 1;
+      }
+      .new-card {
+        width: 18rem;
+        height: 280px;
+        margin-left: 100px;
+        margin-bottom: 5px;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="paris">
+      <div class="over"></div>
+      <div style="
+      display: flex;
+      margin-top: 0px;
+      margin-left: 100px;
+      
+      ">
+        <div style="
+        margin-top: 50px;
+        "
+        >
+          <h1 style="
+            font-size: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: -5px;
+            color: white;">PARIS</h1> 
+          <h1 style="
+            font-size: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: -5px;
+            color: white;
+            margin-top: -80px">2024</h1>
+    </div>
+    <div class="card new-card">
+        <img
+          src="./images/New folder/1.webp"
+          class="card-img-top"
+          style="height: 200px; width: 200px; margin-left: 45px"
+        />
+        <div class="card card-new">
+          <p style="font-size: 20px; margin-top: 8px; margin-left: 10px">
+            EXPLORE
+          </p>
+          <img
+            src="../images/New folder/arrow_right.svg"
+            style="margin-left: 20px"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

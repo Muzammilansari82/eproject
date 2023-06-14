@@ -1,0 +1,325 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(rgb(163, 163, 163), rgb(11, 11, 9)); */
+}
+
+footer {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.footer{
+    display: flex;
+} 
+  .ft-img {
+    width: 125px;
+    margin-top: 25px;
+    margin-left: 60px;
+    display: inline;
+  }
+  
+  .ft-a {
+    margin-top: 25px;
+    margin-left: 90px;
+  }
+  
+  .ft-a-a {
+    margin-left: 50px;
+    display: block;
+    margin-top: 10px;
+    color: #b4b4b4;
+    margin-top: 20px;
+  }
+  
+  .a1 {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  
+  hr {
+    background-color: #b4b4b4;
+    width: 90%;
+    margin-top: 40px;
+    height: 0.1px;
+  }
+  
+  .a3 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: -5px;
+  }
+  
+  .a3 a {
+    color: #b4b4b4;
+    margin-left: 50px;
+  }
+  
+  .a4 {
+    height: 28vh;
+    background-color: #181818;
+  }
+  
+  .a5 {
+    width: 120px;
+    height: 38px;
+  
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .a0 {
+    margin-left: 35%;
+  }
+  
+  .a0 img {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: -30px;
+  }
+  
+  
+  @media only screen and (max-width: 360px) {
+    .footer{
+        display: block;
+    }
+    .ft-img {
+      margin-left: 55px;
+      display: block;
+    }
+  
+    .ft-a {
+      margin-left: 30px;
+      display: block;
+    }
+  
+    .ft-a-a {
+      margin-left: 15px;
+      margin-top: 15px;
+      display: block;
+    }
+  
+    .a1 {
+      margin-left: 15px;
+      display: block;
+    }
+  
+    hr {
+      margin-top: 30px;
+      display: block;
+    }
+  
+    .a3 {
+      margin-top: 20px;
+      display: block;
+    }
+  
+    .a4 {
+      height: 20vh;
+      display: block;
+    }
+  
+    .a5 {
+      margin-left: 10px;
+      margin-top: 5px;
+      display: block;
+    }
+  
+    .a0 {
+      margin-left: 5%;
+      display: block;
+    }
+  }
+  
+/*ft end*/
+.red-bg{
+    display: flex;
+    width: 100%;
+    background-color: rgb(240, 40, 45);
+  }
+    .red-bg-1{
+      width: 622px;
+      height: 669px;
+      
+    }
+     .red-bg-2{
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 100px;
+      margin-left: 180px;
+      
+    } 
+    .redh1{
+      font-size: 50px;
+    }
+    .redp{
+      font-size: 20px;
+      margin-top: -5px;
+    }
+    .redbtn{
+      background-color: white;
+      border: none;
+      font-size: 20px;
+      padding: 12px 16px;
+      width: 200px;
+      border-radius: 6px;
+      height: 50px;
+    }
+
+    .red-bg {
+      display: flex;
+      width: 100%;
+      background-color: rgb(240, 40, 45);
+    }
+    .red-bg-1 {
+      width: 622px;
+      height: 669px;
+    }
+    .red-bg-2 {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 100px;
+      margin-left: 180px;
+    }
+    .redh1 {
+      font-size: 50px;
+    }
+    .redp {
+      font-size: 20px;
+      margin-top: -5px;
+    }
+    .redbtn {
+      background-color: white;
+      border: none;
+      font-size: 20px;
+      padding: 12px 16px;
+      width: 200px;
+      border-radius: 6px;
+      height: 50px;
+    }
+    /*red section*/
+    .next-game {
+      display: flex;
+      width: 90%;
+      height: 50vh;
+      margin-top: -100px;
+      padding: 20px;
+    }
+    .next-game-img {
+      width: 400px;
+      height: 400px;
+      margin-left: 60px;
+      display: block;
+    }
+    .next-game-txt {
+      margin-top: 100px;
+      margin-left: 100px;
+      font-size: 100px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+
+
+    .card-new {
+      height: 40px;
+      width: 180px;
+      background-color: rgb(209, 209, 209);
+      margin-left: 50px;
+      margin-bottom: 40px;
+      display: flex;
+    }
+
+    .new-card {
+      width: 18rem;
+      height: 280px;
+      margin-left: 100px;
+      margin-bottom: 5px;
+      box-shadow: 2.5px 2.5px 2.5px 5px rgb(209, 209, 209);
+    }
+    .paris {
+      position: relative;
+      width: 1340px;
+      height: 700px;
+      background-image: url("../images/paris/ihys9yfdeqs9yexatayp.jfif");
+      background-position: center;
+      background-size: cover;
+    }
+
+    .over {
+      position: absolute;
+      width: 1350px;
+      height: 700px;
+      background-image: linear-gradient( rgb(143, 143, 74),rgb(174, 123, 123));
+      mix-blend-mode: overlay;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .paris:hover .over {
+      opacity: 1;
+    }
+
+    @media (max-width: 320px) {
+      .next-game {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+
+.next-game-img {
+width: 100%;
+max-width: 280px;
+height: auto;
+margin-left: 0;
+margin-bottom: 20px;
+}
+
+.next-game-txt {
+margin-top: 20px;
+margin-left: 0;
+font-size: 24px;
+text-align: center;
+}
+.new-card{
+display: block;
+}
+.card-new {
+height: 40px;
+width: 180px;
+background-color: rgb(209, 209, 209);
+margin-left: 20px;
+margin-bottom: 20px;
+display: flex;
+}
+
+.new-card {
+width: 100%;
+height: auto;
+margin-left: 20px;
+margin-bottom: 20px;
+box-shadow: 2.5px 2.5px 2.5px 5px rgb(209, 209, 209);
+}
+
+}
+.hhr {
+  width: 900px;
+ margin-left: 0;
+}
+.you-may-like {
+  font-size: 100px;
+  margin-top: -15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing :-5px;
+}
+.you-may{
+  margin-left: 300px;
+}
+.card1{
+    width: 25rem; margin-left: 40px;
+}
+.card2{
+    width: 25rem; margin-left: 140px;
+}
